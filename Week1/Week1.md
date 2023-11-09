@@ -1,13 +1,13 @@
 ### 4 Approaches to AI
 
-By distinguishing between human and rational behavior, we are not suggesting that humans are necessarily “irrational” in the sense of “emotionally unstable” or “insane.” One merely need note that ***we are not perfect***: not all chess players are grandmasters; Some systematic errors in human reasoning (Kahneman et al.)
+By distinguishing between human and rational behavior, we are not suggesting that humans are necessarily “irrational” in the sense of “emotionally unstable” or “insane.” One merely need note that ***we are not perfect***: not all chess players are grandmasters; there will be some systematic errors in human reasoning (Kahneman et al.)
 #### Thinking Humanly
 - The automation of activities that we associate with human thinking, like decision making, problem solving, learning.
 - Understand that thinking humanly, doesn't mean reaching the right solution, it simply means thinking like a human. 
 
 #### Acting Humanly
 - The study of how to make computers do things at which, at the moment, people are better at doing, functions that require intelligence when performed by people.
--  Similar principal to the Turing test, people consider it to be AI if a machine can act like a goal.
+-  Similar principal to the Turing test, people consider it to be AI if a machine can act like a human.
 - Disagreed upon sometimes because this does not mean that the AI understands what it's doing.
 #### Thinking Rationally
 - The study of the computations that make it possible to perceive, reason and act.
@@ -54,7 +54,7 @@ By distinguishing between human and rational behavior, we are not suggesting tha
 - An intelligent agent, is an agent that exhibits intelligent behavior. 
 - An agent’s **percept sequence** is the complete history of everything the agent has ever perceived.
 - we say that an **agent’s behavior** is described by the **agent function** that maps any given percept sequence to an action, this will be a very large table, infinite,  unless we place a bound on the length of the percept sequence we want to consider. 
-- the **agent program** is a concrete implementation, running within some physical system, different from an agent function
+- the **agent program** is a concrete implementation, running within some physical system, different from an **agent function**.
 #### Rational Agents
 - *For each possible percept sequence, a rational agent should select an action that is expected to maximize its performance measure, given the evidence provided by the percept sequence and whatever built-in knowledge the agent has.*
 
