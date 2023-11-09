@@ -1,6 +1,6 @@
 ### 4 Approaches to AI
 
-By distinguishing between human and rational behavior, we are not suggesting that humans are necessarily “irrational” in the sense of “emotionally unstable” or “insane.” One merely need note that ***we are not perfect***: not all chess players are grandmasters; and, unfortunately, not everyone gets an A on the exam. Some systematic errors in human reasoning (Kahneman et al.)
+By distinguishing between human and rational behavior, we are not suggesting that humans are necessarily “irrational” in the sense of “emotionally unstable” or “insane.” One merely need note that ***we are not perfect***: not all chess players are grandmasters; Some systematic errors in human reasoning (Kahneman et al.)
 #### Thinking Humanly
 - The automation of activities that we associate with human thinking, like decision making, problem solving, learning.
 - Understand that thinking humanly, doesn't mean reaching the right solution, it simply means thinking like a human. 
@@ -72,9 +72,9 @@ By distinguishing between human and rational behavior, we are not suggesting tha
 - ***UNIMPORTANT BUT FUNNY*** -  Consider the following example: I am walking along the Champs Elysees one day and I see an old friend across the street. There is no traffic nearby and I’m not otherwise engaged, so, being rational, I start to cross the street. Meanwhile, at 33,000 feet, a cargo door falls off a passing airliner, and before I make it to the other side of the street I am flattened. Was I irrational to cross the street? It is unlikely that my obituary would read “Idiot attempts to cross street.”
 - It is important to know that **Rationality is NOT the same as perfection.** Rationality maximizes expected performance, while perfection maximizes actual performance.
 - To the extent that an agent relies on the prior knowledge of its designer rather than on its own percepts, we say that the agent lacks ***autonomy***. A rational agent should be autonomous—it should learn what it can to compensate for partial or incorrect prior knowledge.
-##### Specifying the task environment
+##### Specifying the task environment (PEAS)
 - We group the performance measure, the environment, the agents actuators and sensors under the heading **task environment**, (for the acronymically minded, we call this the **PEAS (Performance, Environment, Actuators, Sensors)**) description
-###### Environment
+##### Environment Types
 - **Fully Observable vs Partially Observable**
 	- If an agents sensors give it access to the complete state of the environment at each point in time, we say that the task environment is **fully observable** else it is either **partially observable** or **unobservable**. 
 	- If the agent has no sensors at all then the environment is **unobservable**
@@ -105,5 +105,15 @@ By distinguishing between human and rational behavior, we are not suggesting tha
 - **Known vs Unknown**
 	-  **Known Environment**: The agent has complete knowledge about the outcomes of all actions. Full observability is not required.
 	- **Unknown Environment**: The agent lacks knowledge about the outcomes of actions and must learn from interactions. Full observability is possible.
+##### Agent Types
+- **Reflex Agents**
+	- The simplest kind of agent is the simple **reflex agent**. These agents select actions on the basis of the current percept, ignoring the rest of the percept history.
+	- A **Reflex Agent with State** is an agent that not only responds to its current percept but also maintains an internal state to keep track of the history of percepts. This internal state reflects some of the unobserved aspects of the current state, allowing the agent to handle partial observability.
 
+- **Goal Based Agents**
+	- A **goal-based agent** is one that uses knowledge about its current state and the environment, along with a set of desirable situations (goals), to choose actions.
+- **Utility Based Agents**
+	- A **utility-based agent** aims to maximize a specific utility. The utility can be anything from maximizing profits to minimizing energy consumption. Unlike a **goal-based agent**, a **utility-based agent** doesn’t have a particular goal. Instead, it is designed to find the best solution based on a specific utility. 
 
+- **Learning Agent**
+	- A learning agent is an agent that improves its performance over time based on its interaction with the environment
